@@ -1,5 +1,5 @@
 powerdns:
-  image: lgoehrs/external-dns:v0.6.0
+  image: lgoehrs/external-dns
   command: "-provider=powerdns"
   expose:
    - 1000
