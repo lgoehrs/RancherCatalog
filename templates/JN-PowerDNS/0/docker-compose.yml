@@ -1,5 +1,5 @@
 powerdns:
-  image: lgoehrs/external-dns
+  image: jnlab/external-dns:v0.6.0
   command: "-provider=powerdns"
   expose:
    - 1000
